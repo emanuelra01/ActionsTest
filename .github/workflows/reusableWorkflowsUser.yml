@@ -17,7 +17,7 @@ jobs:
 
   docker:
     #uses: n3wt0n/ReusableWorkflow/.github/workflows/buildAndPublishDockerImage.yml@main
-    uses: emanuelra01/ReusableWorkflow/.github/workflows/buildAndPublishDockerImage.yml
+    uses: emanuelra01/ReusableWorkflow/.github/workflows/buildAndPublishDockerImage.yml@main
     with:
       image_name: my-awesome-app
       tag: $GITHUB_RUN_NUMBER
