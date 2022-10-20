@@ -20,7 +20,7 @@ jobs:
     uses: emanuelra01/ReusableWorkflow/.github/workflows/buildAndPublishDockerImage.yml@main
     with:
       image_name: my-awesome-app
-      #tag: $GITHUB_RUN_NUMBER
+      tag: $GITHUB_RUN_NUMBER
     secrets:
       registry_username: ${{secrets.REGISTRY_USERNAME}}
       registry_password: ${{secrets.REGISTRY_PASSWORD}}
